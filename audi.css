@@ -161,7 +161,7 @@ main > p {
     flex-direction: column;
     background-color: aqua;
     width: 70vw;
-    height: 111vh;
+    height: 106vh;
     
 }
 
@@ -173,6 +173,8 @@ main > p {
 
 .compartimento-1 > p {
     padding: 26px;
+    padding-left: 0px;
+    padding-right: 0px;
     text-indent: 30px;
     line-height: 5vh;
     text-align: justify;
@@ -218,7 +220,7 @@ main > p {
 }
 
 #position-text > p {
-    padding: 5px 30px 20px 30px;
+    padding: 5px 30px 20px 0px;
     text-align: justify;
     text-indent: 30px;
     line-height: 5vh;
@@ -228,7 +230,7 @@ main > p {
  
 .img-2 {
     display: flex;
-    width: 309%;
+    width: 307%;
     height: 100%;
     justify-content: center;
     justify-items: center;
@@ -261,6 +263,8 @@ main > p {
 
 .compartimento-3 > p {
     padding: 26px;
+    padding-left: 0px;
+    padding-right: 0px;
     text-indent: 30px;
     line-height: 5vh;
     text-align: justify;
