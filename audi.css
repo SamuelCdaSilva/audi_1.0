@@ -17,24 +17,56 @@
 
 body {
     font-family: var(--Fonte-padrão);
+}
 
+::-webkit-scrollbar{
+    background-color: white;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(0, 0, 0);
+    border-radius: 3px;
 }
 
 header {
-    height: 5vw;  
+    height: 84px; 
+    width: 100%; 
+    display: flex;
 }
 
 #menu-topo {
-    margin-left: 80px;
-    padding-top: 25px;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
     gap: 30px;
+    width: 100%;
+    height: 100%;
+    padding: 0px 80px 0px 80px;
 }
 
 #logo [alt=Home]{
-    width: 4vw;
+    height: 33px;
+}
+
+/*
+#busca {
+    display: flex;
+    width: 80px;
+    height: 100%;
+    align-items: center;
+}
+*/
+
+/*
+#lupa [alt=busca] {
+    display: flex;
+    height: 25px;
+}
+*/
+
+::selection {
+    background-color: red;
+    color: white;
 }
 
 nav > a {
@@ -46,14 +78,6 @@ nav > a:hover {
     color: darkgrey;
 }
 
-#title-img {
-    position: absolute;
-    top: 80%;
-    left: 22%;
-    font-size: 7vh;
-    color: white;
-}
-
 main {
     width: 100%;
     height: 25vh;
@@ -61,8 +85,9 @@ main {
 
 main > h1 {
     text-align: center;
-    margin-top:30px ;
+    margin-top: 30px ;
     font-size: 4vw;
+    margin-top: 80px;
 }
 
 main > p {
@@ -87,12 +112,11 @@ main > p {
 } 
 
 #blocos > a:hover {
-   margin-top: -30px;  
-   transition: 0.5s;
-   filter: invert(100%);
+    margin-top: -30px;  
+    transition: 0.5s;
+    filter: invert(100%);
+    box-shadow: 0px 10px 20px rgba(255, 255, 255, 0.267);
 } 
-
-
 
 #card-conserto {
     background-color: white;
@@ -102,8 +126,11 @@ main > p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 13px;
-    
+    gap: 13px;  
+}
+
+#card-conserto:hover {
+    border: none;
 }
 
 #card-conserto > p {
@@ -123,6 +150,10 @@ main > p {
     gap: 15px;
 }
 
+#card-peças:hover{
+    border: none;
+}
+
 #card-peças > p {
     margin-top: 40px;
     font-size: 25px;
@@ -140,6 +171,10 @@ main > p {
     gap: 40px;
 }
 
+#card-seguro:hover {
+    border: none;
+}
+
 #card-seguro > p {
     margin-top: 40px;
     font-size: 25px;
@@ -153,16 +188,21 @@ main > p {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    /*
     background-color: bisque;
+    */
 }
 
 .compartimento-1 {
     display: flex;
     flex-direction: column;
+    background-color: white;
+    /*
     background-color: aqua;
+    */
     width: 70vw;
     height: 106vh;
-    
 }
 
 .compartimento-1 > h1 {
@@ -192,17 +232,23 @@ main > p {
 #container-2 {
     width: 97.5%;
     height: 100%;
-    padding: 20px;
+    padding: 80px 20px 20px 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    /*
     background-color: bisque;
+    */
 }
 
 .compartimento-2 {
     display: flex;
+    background-color: white;
+    /*
     background-color: aqua;
+    */
     width: 70vw;
     height: 65vh; 
 }
@@ -239,17 +285,23 @@ main > p {
 #container-3 {
     width: 97.5%;
     height: 100%;
-    padding: 20px;
+    padding: 80px 20px 20px 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    /*
     background-color: bisque;
+    */
 }
 
 .compartimento-3 {
     display: flex;
     flex-direction: column;
+    background-color: white;
+    /*
     background-color: aqua;
+    */
     width: 70vw;
     height: 120.1vh;
 }
@@ -277,6 +329,43 @@ main > p {
     justify-content: center;
     justify-items: center;
 }
+
+
+#container-form{
+    display: flex;
+    background-color: bisque;
+    height: 70vh;
+    width: 99.4vw;
+    justify-content: center;
+    align-items: center;
+}
+
+#formulario {
+    width: 50vw;
+    height: 60vh;
+    background-color: aqua;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 footer > section {
