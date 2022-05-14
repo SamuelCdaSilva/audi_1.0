@@ -30,7 +30,7 @@ body {
 }
 
 header {
-    height: 84px;
+    height: 90px;
     width: 100%;
     display: flex;
 }
@@ -42,6 +42,7 @@ header {
     width: 100%;
     height: 100%;
     padding: 0px 80px 0px 80px;
+
 }
 
 #logo [alt=Home] {
@@ -80,19 +81,19 @@ nav>a:hover {
 
 #mainInformation {
     width: 100%;
-    height: 25vh;
+    height: 100%;
 }
 
-#mainInformation>h1 {
+#mainInformation > h1 {
     text-align: center;
     margin-top: 30px;
-    font-size: 4vw;
+    font-size: 60px;
     margin-top: 80px;
 }
 
-#mainInformation>p {
+#mainInformation > p {
     text-align: center;
-    font-size: 1.5vw;
+    font-size: 26px;
     margin-top: 30px;
     line-height: 50px;
 }
@@ -121,8 +122,8 @@ nav>a:hover {
 #card-conserto {
     background-color: white;
     border: 3px solid black;
-    width: 15vw;
-    height: 30vh;
+    width: 250px;
+    height: 235px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -142,8 +143,8 @@ nav>a:hover {
 #card-peças {
     background-color: white;
     border: 3px solid black;
-    width: 15vw;
-    height: 30vh;
+    width: 250px;
+    height: 235px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -163,8 +164,10 @@ nav>a:hover {
 #card-seguro {
     background-color: white;
     border: 3px solid black;
-    width: 15vw;
-    height: 30vh;
+    width: 250px;
+    height: 235px;
+    /*width: 15vw;
+    height: 30vh;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -201,24 +204,24 @@ nav>a:hover {
     /*
     background-color: aqua;
     */
-    width: 70vw;
-    height: 106vh;
+    width: 1120px;
+    height: 836.34px;
 }
 
-.compartimento-1>h1 {
+.compartimento-1 > h1 {
     padding: 30px;
-    font-size: 2vw;
+    font-size: 32px;
     text-align: center;
 }
 
-.compartimento-1>p {
+.compartimento-1 > p {
     padding: 26px;
     padding-left: 0px;
     padding-right: 0px;
     text-indent: 30px;
-    line-height: 5vh;
+    line-height: 39.45px;
     text-align: justify;
-    font-size: 1.3vw;
+    font-size: 20.8px;
 }
 
 .img-1 {
@@ -249,8 +252,8 @@ nav>a:hover {
     /*
     background-color: aqua;
     */
-    width: 70vw;
-    height: 65vh;
+    width: 1120px;
+    height: 512.85px;
 }
 
 #position-text {
@@ -260,7 +263,7 @@ nav>a:hover {
 
 #position-text>h1 {
     text-align: center;
-    font-size: 2vw;
+    font-size: 32px;
     padding: 20px;
     padding-top: 48px;
 }
@@ -269,8 +272,8 @@ nav>a:hover {
     padding: 5px 30px 20px 0px;
     text-align: justify;
     text-indent: 30px;
-    line-height: 5vh;
-    font-size: 1.3vw;
+    line-height: 39.45px;
+    font-size: 20.8px;
 }
 
 .img-2 {
@@ -301,13 +304,13 @@ nav>a:hover {
     /*
     background-color: aqua;
     */
-    width: 70vw;
-    height: 120.1vh;
+    width: 1120px;
+    height: 947.5889999999999px;
 }
 
 .compartimento-3>h1 {
     padding: 30px;
-    font-size: 2vw;
+    font-size: 32px;
     text-align: center;
 }
 
@@ -316,9 +319,9 @@ nav>a:hover {
     padding-left: 0px;
     padding-right: 0px;
     text-indent: 30px;
-    line-height: 5vh;
+    line-height: 39.45px;
     text-align: justify;
-    font-size: 1.3vw;
+    font-size: 20.8px;
 }
 
 .img-3 {
@@ -335,19 +338,19 @@ nav>a:hover {
     background-size: cover;
     background-position: bottom;
     height: 105vh;
-    width: 99.4vw;
+    width:  99,4vw;
     justify-content: flex-end;
     align-items: center;
 }
 
 #formulario {
-    width: 32vw;
-    height: 40vh;
+    width: 512px;
+    height: 315.6px;
     background-color: white;
     border-radius: 5px;
 }
 
-#formulario>form {
+#formulario > form {
     display: flex;
     flex-direction: column;
     box-shadow: 5px 5px 7px 0px #00000017;
@@ -359,7 +362,7 @@ nav>a:hover {
     border-radius: 4px 4px 0px 0px;
 }
 
-#headerForm>h1 {
+#headerForm > h1 {
     color: white;
     margin: auto;
     text-align: center;
@@ -417,7 +420,7 @@ button:hover {
     height: 100%;
 }
 
-footer>section {
+footer > section {
     background-color: black;
     color: white;
     padding: 12px;
@@ -434,3 +437,6 @@ footer>section {
 .baixo {
     color: white;
 }
+
+
+
