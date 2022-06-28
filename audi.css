@@ -434,6 +434,9 @@ footer > section {
     color: white;
 }
 
+/* RESPONSIVIDADE */
+
+
 /* 480px - 768px = tablet */
 @media screen and (max-width: 480px) { 
 
@@ -453,7 +456,7 @@ footer > section {
     #menu-topo {
         padding: 0px 15px 0px 15px;
 
-        
+
     }
 }
   
