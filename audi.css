@@ -464,7 +464,7 @@ footer > section {
         font-size: 12px;
     }
 
-    /* =================================== */
+/* =================================== */
 
 
     /* === MAIN === */
@@ -515,17 +515,59 @@ footer > section {
         font-size: 18px;
         margin-top: 24px;
     }
+
+/* CONTAINER 1 */
+
+    #container-1 {
+        width: 94.5%;
+    }
+
+    .compartimento-1 {
+        height: 429.34px;
+    }
+
+    .compartimento-1 > h1 {
+        font-size: 20px;
+        padding-bottom: 14px;
+        padding-top: 10px;
+    }
+
+    .compartimento-1 > p {
+        font-size: 13px;
+        line-height: 25px;
+        padding-top: 5px;
+    }
+
+/* =================================== */
     
+/* CONTAINER 2 */
+
+    #container-2 {
+
+    }
+
+    #position-text {
+        width: 543px;
+    }
+
+    #position-text > h1 {
+        font-size: 20px;
+    }
+
+    #position-text > p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .img-2{
+        width: 21%;
+        height: 45%;
+    }
+
+    #compartimento-2 {
+        height: 266.85px;
+    }
 
     
 
 }
-  
-  
-
-  
- 
-
-
-
-
