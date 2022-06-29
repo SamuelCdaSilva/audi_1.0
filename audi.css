@@ -434,11 +434,15 @@ footer > section {
     color: white;
 }
 
+
+
 /* RESPONSIVIDADE */
 
 
 /* 480px - 768px = tablet */
 @media screen and (max-width: 480px) { 
+
+    /* === BARRA DO TOPO === */
 
     #logo {
         height: 20px;
@@ -448,16 +452,73 @@ footer > section {
         height: 20px;
     }
 
-
     #topo {
-        height: 38px;
+        height: 48px;
     }
 
     #menu-topo {
         padding: 0px 15px 0px 15px;
-
-
     }
+
+    a {
+        font-size: 12px;
+    }
+
+    /* =================================== */
+
+
+    /* === MAIN === */
+
+    #mainInformation > h1 {
+        font-size: 25px;
+        margin-top: 25px;
+    }
+
+    #mainInformation > p {
+        font-size: 13px;
+        margin-top: 15px;
+        line-height: 31px;
+    }
+    
+    #blocos {
+        flex-direction: column;
+        height: 660px;
+        gap: 45px;
+    }
+
+    #card-conserto {
+        width: 180px;
+        height: 162px;
+    }
+
+    #card-conserto > p {
+        font-size: 16px;
+        margin-top: 24px;
+    }
+
+    #card-seguro {
+        width: 180px;
+        height: 162px;
+    }
+
+    #card-seguro > p {
+        font-size: 18px;
+        margin-top: 24px;
+    }
+
+    #card-peças {
+        width: 180px;
+        height: 162px;
+    }
+
+    #card-peças > p {
+        font-size: 18px;
+        margin-top: 24px;
+    }
+    
+
+    
+
 }
   
   
