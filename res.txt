@@ -1,0 +1,133 @@
+/* RESPONSIVIDADE */
+
+/*
+
+/* 480px - 768px = tablet */
+@media screen and (max-width: 480px) { 
+
+    /* === BARRA DO TOPO === */
+
+    #logo {
+        height: 20px;
+    }
+
+    #logo [alt=Home] {
+        height: 20px;
+    }
+
+    #topo {
+        height: 48px;
+    }
+
+    #menu-topo {
+        padding: 0px 15px 0px 15px;
+    }
+
+    a {
+        font-size: 12px;
+    }
+
+/* =================================== */
+
+
+    /* === MAIN === */
+
+    #mainInformation > h1 {
+        font-size: 25px;
+        margin-top: 25px;
+    }
+
+    #mainInformation > p {
+        font-size: 13px;
+        margin-top: 15px;
+        line-height: 31px;
+    }
+    
+    #blocos {
+        flex-direction: column;
+        height: 660px;
+        gap: 45px;
+    }
+
+    #card-conserto {
+        width: 180px;
+        height: 162px;
+    }
+
+    #card-conserto > p {
+        font-size: 16px;
+        margin-top: 24px;
+    }
+
+    #card-seguro {
+        width: 180px;
+        height: 162px;
+    }
+
+    #card-seguro > p {
+        font-size: 18px;
+        margin-top: 24px;
+    }
+
+    #card-peças {
+        width: 180px;
+        height: 162px;
+    }
+
+    #card-peças > p {
+        font-size: 18px;
+        margin-top: 24px;
+    }
+
+/* CONTAINER 1 */
+
+    #container-1 {
+        width: 94.5%;
+    }
+
+    .compartimento-1 {
+        height: 429.34px;
+    }
+
+    .compartimento-1 > h1 {
+        font-size: 20px;
+        padding-bottom: 14px;
+        padding-top: 10px;
+    }
+
+    .compartimento-1 > p {
+        font-size: 13px;
+        line-height: 25px;
+        padding-top: 5px;
+    }
+
+/* =================================== */
+    
+/* CONTAINER 2 */
+
+    #container-2 {
+
+    }
+
+    #position-text {
+        width: 543px;
+    }
+
+    #position-text > h1 {
+        font-size: 20px;
+    }
+
+    #position-text > p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+
+    .img-2{
+        width: 21%;
+        height: 45%;
+    }
+
+    #compartimento-2 {
+        height: 266.85px;
+    }
+
