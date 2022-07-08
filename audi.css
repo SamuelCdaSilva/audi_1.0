@@ -26,7 +26,6 @@ body {
 
 ::-webkit-scrollbar-thumb {
     background-color: rgb(0, 0, 0);
-    border-radius: 3px;
 }
 
 header {
@@ -334,7 +333,7 @@ nav>a:hover {
     background-size: cover;
     background-position: bottom;
     height: 105vh;
-    width: 99.4vw;
+    width: 100%;
     justify-content: flex-end;
     align-items: center;
 }
@@ -416,7 +415,18 @@ button:hover {
     height: 100%;
 }
 
+footer {
+    width: 100%;
+}
+
 footer>section {
+    background-color: black;
+    color: white;
+    padding: 12px;
+    font-size: 12px;
+}
+
+footer>section>nav>a {
     background-color: black;
     color: white;
     padding: 12px;
@@ -427,7 +437,7 @@ footer>section {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 2vw;
 }
 
 .baixo {
@@ -435,17 +445,9 @@ footer>section {
 }
 
 
-
 /* RESPONSIVIDADE */
 
-
-/* 480px - 768px = tablet */
-
-
-
 @media (min-width: 0px) and (max-width: 800px) {
-
-    /* ========== TOPO ===========*/
 
     header {
         height: 11vw;
@@ -463,9 +465,6 @@ footer>section {
         height: 4vw;
     }
 
-    /* ===============================
-
-/* ========== MAIN ===========*/
 
     #mainInformation>h1 {
         font-size: 7vw;
@@ -494,47 +493,76 @@ footer>section {
         padding-bottom: 2vw;
     }
 
-    /* COMPARTIMENTO 2 === */
-
     .compartimento-2 {
         width: 93vw;
         height: 65.7vw;
     }
 
-    #position-text > h1 {
+    #position-text>h1 {
         font-size: 4vw;
         padding-top: 6vw;
         padding-bottom: 2.5vw;
     }
 
-    #position-text > p {
+    #position-text>p {
         font-size: 2.5vw;
         line-height: 5vw;
         padding-top: 1vw;
         padding-bottom: 2vw;
     }
 
+    .compartimento-3 {
+        height: 99vw;
+    }
 
-        /* =================== */
+    .compartimento-3>h1 {
+        font-size: 4vw;
+        padding-top: 6vw;
+        padding-bottom: 6vw;
+    }
 
-        .compartimento-3 {
-            height: 99vw;
-        }
-    
-        .compartimento-3>h1 {
-            font-size: 4vw;
-            padding-top: 6vw;
-            padding-bottom: 6vw;
-        }
-    
-        .compartimento-3>p {
-            font-size: 2.5vw;
-            line-height: 5vw;
-            padding-top: 1vw;
-            padding-bottom: 2vw;
-        }
+    .compartimento-3>p {
+        font-size: 2.5vw;
+        line-height: 5vw;
+        padding-top: 1vw;
+        padding-bottom: 2vw;
+    }
+
+    #container-form {
+        height: 69vw;
+
+    }
+
+    #formulario {
+        width: 45vw;
+        height: 32vw;
+    }
+
+    #headerForm>h1 {
+        font-size: 2vw;
+    }
+
+    form {
+        gap: 1.5vw;
+    }
+
+    input {
+        width: 20vw;
+        height: 4vw;
+        font-size: 1.8vw;
+    }
+
+    label {
+        font-size: 2.5vw;
+        width: 8vw;
+    }
 
 
+    button {
+        height: 4vw;
+        width: 17vw;
+        font-size: 1.5vw;
+    }
 
 }
 
@@ -543,49 +571,18 @@ footer>section {
 
     .compartimento-2 {
         width: 97vw;
-        /*flex-direction: column;*/
-        
     }
 
     .img-2 {
         width: 310vw;
     }
 
+    #container-form {
+        height: 65vh;
 
-
-
-
+    }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 @media (min-width: 0px) and (max-width: 870px) {
@@ -625,6 +622,36 @@ footer>section {
     #card-peças>p {
         font-size: 2.7vw;
         margin-top: 4.5vw;
+    }
+
+}
+
+
+
+@media (max-width: 1591px) {
+
+    #container-1 {
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    #container-2 {
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    #container-3 {
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    #container-form {
+        width: 100%;
+        padding-right: 0;
+        padding-left: 0;
     }
 
 }
