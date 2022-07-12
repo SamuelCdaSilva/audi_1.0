@@ -1,5 +1,5 @@
 # Audi
-Página da Audi - A3 🚗
+Página da Audi 1.0 🚗
 
 Projeto realizado com o objetivo de consolidar alguns conhecimento em html e principalmente em css no posicionamento de divs (Flexbox).
 
